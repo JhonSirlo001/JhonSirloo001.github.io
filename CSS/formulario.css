@@ -5,20 +5,41 @@
 }
 
 .contenedor {
-
-
+    width: 100%;
+    min-height: 100vh;
+    background: url(https://picsum.photos/1920/1080);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .formulario {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    max-width: 460px;
+    padding: 24px;
+    background-color: #f6f6f6;
+   
+}
 
+.inputText {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    color: blue;
 
 }
 
-.inpuCheck {
-
-    background-color: red;
-    margin: 4px;
-    margin-right: 8px;
-    width: 40px;
+.inputEnviar {
+    width: 100%;
+    padding: 12px;
+    background-color: skyblue;
 
 }
+
+.contenedor 

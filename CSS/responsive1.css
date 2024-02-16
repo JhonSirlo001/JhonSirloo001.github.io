@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.item {
+    width: 100%;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+
+.item img {
+    width: 100%;
+    
+    /* Media query*/
+    
+}
+
+ @media screen and (min-width: 768px)
+    
+  {
+    .contenedor{
+        justify-content: space-around;
+    }
+    
+    .item {
+        width: 45%;
+    }
+
+ }
+
+ @media screen and (min-width: 1024px)  
+ {
+    .item {
+        width: 22%;
+        
+    }
+ }
+ 
